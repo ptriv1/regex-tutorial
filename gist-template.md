@@ -39,11 +39,8 @@ Regular expressions often use bracket expressions to indicate ranges of characte
 ### Character Classes
 The Matching an Email regular expression allows using \d to match numbers using the 0-9 digits.
 
-### The OR Operator
-
-### Flags
-
 ### Character Escapes
+In the Matching an Email regular expression, the '\.' is an escape character that matches all characters except \n.
 
 ## Author
 
