@@ -44,4 +44,4 @@ In the Matching an Email regular expression, the '\.' is an escape character tha
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Pia T wrote this gist.  She is currently enrolled in the boot camp for web development through Georgia Tech and works in the software industry.  [To view her profile, go to this link.] (https://github.com/ptriv1)
