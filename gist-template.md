@@ -34,9 +34,10 @@ A quantifier limits a string or a section of a string.  Brackets like {} enclose
 Regular expressions use parentheses to create subexpressions, or sections of strings.  In the Matching an Email regex, parentheses are used so that the characters entered before the @ are considered a section, the characters entered after the @ are considered a section, and the characters entered after the . are considered a section.  These sections relate to the common email format name@organization.domain.
 
 ### Bracket Expressions
-Regular expressions often use bracket expressions to indicate ranges of characters that we want to search.  In the Matching an Email regular expression, the name section of the email can include the alphabet, numeric characters, and special characters ., -, and _.  In the section of the email before the domain, we can validate alphabet characters.  The domain section of the email string allows us to validate alphabet characters and the . character.
+Regular expressions often use bracket expressions to indicate ranges of characters that we want to search.  In the Matching an Email regular expression, the name section of the email can include the alphabet, numeric characters, and special characters ., -, and _.  In the section of the email before the domain, we can validate alphabet characters.  The domain section of the email string allows us to validate alphabet characters, numeric characters, and the . character.
 
 ### Character Classes
+The Matching an Email regular expression allows using \d to match numbers using the 0-9 digits.
 
 ### The OR Operator
 
